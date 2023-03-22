@@ -1,0 +1,166 @@
+// delete projects array if you want to make your own project data.
+
+let projects = [
+    {
+        name: 'project one',
+        about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tortor nibh, tristique at diam et, venenatis cursus felis. Aenean arcu nulla',
+        tags: '#javascript, #fullstack',
+        live: 'https://www.project-url.com',
+        github: 'https://www.github.com/github-repo-name',
+        image: 'img/project-1.png',
+        languages: {
+            html: '90%',
+            css: '80%',
+            javascript: '70%',
+            reactjs: '80%',
+            nodejs: '55%',
+            database: '30%',
+            tailwind: '20%',
+            other: '2%',
+        }
+    },
+    {
+        name: 'project two',
+        about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tortor nibh, tristique at diam et, venenatis cursus felis. Aenean arcu nulla',
+        tags: '#javascript, #css',
+        live: 'https://www.project-url.com',
+        github: 'https://www.github.com/github-repo-name',
+        image: 'img/project-2.png',
+        languages: {
+            html: '50%',
+            css: '90%',
+            javascript: '80%',
+            reactjs: '20%',
+            nodejs: '80%',
+            database: '70%',
+            tailwind: '10%',
+            other: '7%',
+        }
+    },
+    {
+        name: 'project three',
+        about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tortor nibh, tristique at diam et, venenatis cursus felis. Aenean arcu nulla',
+        tags: '#fullstack, #nodejs, #reactjs',
+        live: 'https://www.project-url.com',
+        github: 'https://www.github.com/github-repo-name',
+        image: 'img/project-3.png',
+        languages: {
+            html: '30%',
+            css: '45%',
+            javascript: '55%',
+            reactjs: '95%',
+            nodejs: '35%',
+            database: '70%',
+            tailwind: '60%',
+            other: '9%',
+        }
+    },
+    {
+        name: 'project four',
+        about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tortor nibh, tristique at diam et, venenatis cursus felis. Aenean arcu nulla',
+        tags: '#css, #frontend, #javascript, #reactjs',
+        live: 'https://www.project-url.com',
+        github: 'https://www.github.com/github-repo-name',
+        image: 'img/project-4.png',
+        languages: {
+            html: '85%',
+            css: '45%',
+            javascript: '30%',
+            reactjs: '90%',
+            nodejs: '65%',
+            database: '60%',
+            tailwind: '90%',
+            other: '30%',
+        }
+    },
+    {
+        name: 'project five',
+        about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tortor nibh, tristique at diam et, venenatis cursus felis. Aenean arcu nulla',
+        tags: '#fullstack, #nodejs, #backend, #reactjs',
+        live: 'https://www.project-url.com',
+        github: 'https://www.github.com/github-repo-name',
+        image: 'img/project-5.png',
+        languages: {
+            html: '30%',
+            css: '60%',
+            javascript: '40%',
+            reactjs: '90%',
+            nodejs: '25%',
+            database: '50%',
+            tailwind: '10%',
+            other: '5%',
+        }
+    },
+    {
+        name: 'project six',
+        about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tortor nibh, tristique at diam et, venenatis cursus felis. Aenean arcu nulla',
+        tags: '#nodejs, #reactjs, #frontend',
+        live: 'https://www.project-url.com',
+        github: 'https://www.github.com/github-repo-name',
+        image: 'img/project-6.png',
+        languages: {
+            html: '60%',
+            css: '40%',
+            javascript: '90%',
+            reactjs: '67%',
+            nodejs: '85%',
+            database: '93%',
+            tailwind: '34%',
+            other: '5%',
+        }
+    },
+    {
+        name: 'project seven',
+        about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tortor nibh, tristique at diam et, venenatis cursus felis. Aenean arcu nulla',
+        tags: '#css, #backend, #fullstack, #frontend, #backend, #javascript',
+        live: 'https://www.project-url.com',
+        github: 'https://www.github.com/github-repo-name',
+        image: 'img/project-7.png',
+        languages: {
+            html: '30%',
+            css: '80%',
+            javascript: '60%',
+            reactjs: '45%',
+            nodejs: '75%',
+            database: '50%',
+            tailwind: '30%',
+            other: '10%',
+        }
+    },
+    {
+        name: 'project eight',
+        about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tortor nibh, tristique at diam et, venenatis cursus felis. Aenean arcu nulla',
+        tags: '#css, #reactjs, #fullstack, #backend, #javascript',
+        live: 'https://www.project-url.com',
+        github: 'https://www.github.com/github-repo-name',
+        image: 'img/project-8.png',
+        languages: {
+            html: '90%',
+            css: '30%',
+            javascript: '60%',
+            reactjs: '40%',
+            nodejs: '75%',
+            database: '20%',
+            tailwind: '70%',
+            other: '4%',
+        }
+    },
+    {
+        name: 'project nine',
+        about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tortor nibh, tristique at diam et, venenatis cursus felis. Aenean arcu nulla',
+        tags: '#javascript, #fullstack, #reactjs, #nodejs',
+        live: 'https://www.project-url.com',
+        github: 'https://www.github.com/github-repo-name',
+        image: 'img/project-9.png',
+        languages: {
+            html: '90%',
+            css: '40%',
+            javascript: '50%',
+            reactjs: '65%',
+            nodejs: '55%',
+            database: '55%',
+            tailwind: '40%',
+            other: '15%',
+        }
+    }
+];
